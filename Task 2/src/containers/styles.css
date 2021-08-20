@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background: linear-gradient(89deg, #e6592d 0%, #4a3eac 100%);
+    color: rgb(7, 7, 7);
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedSecondary {
+   
+    background-image: radial-gradient(#361ccb, #050407);
+            color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 6px 43px;
+    border-radius: 30px;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedSecondary:hover {
+    background: linear-gradient(89deg, #4176c5 0%, #ab34b4 100%);
+            color: black;
+   
+}
+.logo {
+    font-size: 55px;
+    color: rgb(0 0 0)
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+    align-content: center;
+}
+.MuiButton-label{
+    width: 100%;
+    padding: 1px 70px;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+.mobile-menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .logo {
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+    }
+}
+.app {
+    margin-left: 47%;
+    margin-top: 5%;
+
+}
+
+.copy {
+    margin-bottom: 4px;
+    height: 14vh;
+    color: black;
+    background-color: rgb(171 27 190);
+    border-radius: 2px;
+    font-size: 20px;
+}
+.copy p{
+    margin-top: 9px;
+}
+h1{
+    font-size: 40px;
+    color: turquoise;
+}
